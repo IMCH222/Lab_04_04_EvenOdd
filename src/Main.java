@@ -1,5 +1,10 @@
-public class Main {
+public class Main
+{
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+    int numToExamine = 5;
+    int numOddEven = 0;
+    numOddEven = numToExamine % 2;
+        System.out.println("The number you chose is:" + " " + numOddEven + " " + "which is odd");
+
     }
 }
